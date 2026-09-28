@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/craftedge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Craft structured JSON edge payloads without a heavyweight toolkit.",
+  "bin": {
+    "craftedge": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/craftedge.git"
+  },
+  "homepage": "https://theworker02.github.io/craftedge/",
+  "keywords": [
+    "craft",
+    "edge",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
